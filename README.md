@@ -269,7 +269,3 @@ print(main.audit_one(db, 'SHP1003', 4200)[1])
 | Invoice audit returns "No contracted rate found" | The (carrier × orig × dest × container) combo must exactly match a row in `carrier_rates.csv`; check the spelling/casing of the carrier name in the shipment |
 | Email parse shows 0/0 | Make sure `sample_emails.txt` is in the same folder as `main.py` (repo ships with it) |
 | Render build OOM / fails at numpy/pandas | Confirmed pinned wheels install from manylinux; if still failing, upgrade plan or add `--no-cache-dir` (already in buildCommand) |
-
----
-
-**Made for the Bluspark Ocean Freight Rate & Shipment Tracker challenge · 2-day individual build.**
