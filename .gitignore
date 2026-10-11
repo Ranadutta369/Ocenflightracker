@@ -10,26 +10,3 @@ venv/
 .vscode/
 .idea/
 
-# Problem statement + any PDF must NOT be in the repo
-*.pdf
-
-# IDE / Trae workspace cache artifacts (caused malformed-path deploy error)
-==_*
-*Downlo*
-workspaceStorage/
-long-text/
-mv2hevmu-*/
-Trae/
-*.tmp
-*.temp
-downloads/
-
-# Talking-track / presentation scratch files (kept locally only, not in repo)
-TALKING_TRACK*
-PRESENTATION*
-SLIDES*
-*.pptx
-*.key
-*.mp4
-*.mov
-*.mkv
